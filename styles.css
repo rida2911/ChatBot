@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.chatbot-container {
+    background-color: #ff69b4;
+    /* Pink background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    /* Width of the chatbot */
+    text-align: center;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #fff;
+    color: #ff69b4;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #ffccff;
+    /* Light pink on hover */
+}
+
+#response {
+    margin-top: 20px;
+    font-weight: bold;
+}
